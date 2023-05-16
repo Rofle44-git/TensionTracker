@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://whl0nom1pvq4"]
+
+[ext_resource type="PackedScene" uid="uid://coerw07gr7dqk" path="res://src/widgets/tension_scale.tscn" id="1_gj285"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TensionScale" parent="." instance=ExtResource("1_gj285")]
+layout_mode = 1

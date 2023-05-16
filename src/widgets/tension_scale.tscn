@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://coerw07gr7dqk"]
+
+[ext_resource type="Texture2D" uid="uid://vxjl25nj8h1m" path="res://assets/textures/tension-scale.svg" id="1_s0eva"]
+[ext_resource type="Texture2D" uid="uid://vffh6r2n0dam" path="res://assets/textures/tension-scale-grabber.svg" id="2_e4of5"]
+
+[node name="TensionScale" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Tension-scale" type="Sprite2D" parent="."]
+position = Vector2(360, 780)
+texture = ExtResource("1_s0eva")
+
+[node name="Tension-scale-grabber" type="Sprite2D" parent="."]
+position = Vector2(360, 1320)
+texture = ExtResource("2_e4of5")
